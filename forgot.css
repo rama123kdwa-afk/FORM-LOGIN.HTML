@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: arial,sans-serif;
+}   
+
+.forgot-box {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.fotgot-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+
+}
+.forgot-box label {
+  display: block;
+  margin-bottom: 5px;
+}
+.forgot-box input {
+  width: 99%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.forgot-box button {
+  width: 100%;
+  padding: 10px;
+  background: rgb(3, 150, 242);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.forgot-box button:hover{
+    background-color:rgb(30, 124, 174) ;
+}
